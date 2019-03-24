@@ -1,0 +1,293 @@
+/*-------------------Andre´s lidl css-------------------*/
+
+#card-title {
+  font-family: Avenir Next, sans-serif;
+  font-size: 47px;
+  font-variant: small-caps;
+}
+
+#picture_columns_title > h2 {
+  font-family: Avenir Next,sans-serif;
+  font-size: 47px;
+  font-variant: small-caps;
+  margin-bottom: 20px;
+}
+
+#repcardtop {
+  height: 100%;
+}
+
+#centertextbox > h2 {
+  font-family: Avenir Next,sans-serif;
+  font-variant: small-caps;
+}
+
+#centertextbox a:hover {
+  border-bottom: 2px solid rgba(105, 153, 239, 1);
+}
+
+#centertextbox a {
+  color: inherit;
+}
+
+#repcardtop {
+    transition: transform .2s;
+}
+
+#repcardtop:hover {
+    transform: scale(1.07);
+}
+
+#catrepcol div:hover {
+  transform: scale(1.02);
+  transition: transform .2s;
+}
+/*----------------picture columns----------------*/
+
+#twocolleft {
+  height: 500px;
+  background-size: cover;
+  transition: transform .2s;
+  background-position: top;
+}
+
+#twocolright {
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: transform .2s;
+}
+
+#twocolbotleft {
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: transform .2s;
+}
+
+#twocolbotright {
+  height: 500px;
+  background-size: cover;
+  transition: transform .2s;
+}
+
+#twocolleft:hover {
+    transform: scale(1.03);
+}
+
+#twocolright:hover {
+    transform: scale(1.09);
+}
+
+#twocolbotleft:hover {
+    transform: scale(1.03);
+}
+
+#twocolbotright:hover {
+    transform: scale(1.02);
+}
+
+#botpiccol {
+  margin-top: 40px;
+}
+
+/*-----------------------------------------------------*/
+
+/*----------------owl slide----------------*/
+
+section.slideshow {
+  height: 400px;
+}
+
+section.slideshow .owl-wrapper-outer {
+  overflow: hidden;
+}
+
+section.slideshow .owl-item {
+  float: left;
+}
+
+section.slideshow .slide {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+#owlsec > h2 {
+  font-family: Avenir Next,sans-serif;
+  font-size: 45px;
+  color: rgba(105, 153, 239, 1);
+}
+
+#owlsec > h3 {
+  font-family: Avenir Next,sans-serif;
+  font-size: 25px;
+}
+
+#owlsec p + p {
+  font-weight: lighter;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+/*-----------------------------------------------------*/
+
+/*----------------woo css----------------*/
+
+.content-area {
+   padding-top: 80px;
+}
+
+.woocommerce-cart-form {
+  padding-top: 10px;
+}
+
+.woocommerce-notices-wrapper {
+  padding-top: 80px;
+}
+
+.wc-proceed-to-checkout {
+  box-sizing: content-box;
+}
+
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+
+}
+
+.woocommerce a.button.alt {
+  background-color: rgba(105, 153, 239, 1);
+  height: 20px;
+}
+
+.woocommerce a.button.alt:hover {
+  transform: scale(1.09);
+  background-color: rgba(105, 153, 239, 1);
+}
+
+.woocommerce-form-coupon-toggle {
+  padding-top: 80px;
+}
+
+#place_order {
+  background-color: rgba(105, 153, 239, 1);
+}
+
+#place_order:hover {
+  transform: scale(1.09);
+  background-color: rgba(105, 153, 239, 1);
+}
+
+.woocommerce button.button.alt {
+  background-color: rgba(105, 153, 239, 1);
+}
+
+.woocommerce button.button.alt:hover {
+  transform: scale(1.07);
+  background-color: rgba(105, 153, 239, 1);
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul{
+  list-style-type: none;
+  padding-top: 90px;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation a:hover {
+  border-bottom: 2px solid rgba(105, 153, 239, 1);
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+ padding-top: 90px;
+}
+/*---menu---*/
+
+.shopmenuheader {
+  text-align: center;
+}
+
+.shopmenuheader .menu > li{
+  text-shadow: none;
+  bottom: 30px;
+  right: 39px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.shopmenuheader li a:hover {
+  border-bottom: 2px solid rgba(105, 153, 239, 1);
+}
+/*---sidebar---*/
+
+.shop-sidebar h2{
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+.shop-sidebar aside ul > li{
+  font-size: 16px;
+  font-family: Avenir Next,sans-serif;
+  font-
+}
+
+.shop-sidebar a:hover {
+  border-bottom: 2px solid rgba(105, 153, 239, 1);
+}
+
+
+/*------------------------------Media queries--------------------------*/
+@media screen and (max-width: 360px) {
+
+  #twocolleft {
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  #twocolright {
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -250px;
+  }
+
+  #botpiccol {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 772px) {
+  section.slideshow {
+    max-height: 300px;
+    padding-bottom: 5px;
+  }
+
+  section.slideshow .owl-wrapper-outer {
+    overflow: visible;
+  }
+
+  section.slideshow .owl-item {
+    float: left;
+  }
+
+  section.slideshow .slide {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+
+  #botpiccol {
+    display: none;
+  }
+
+  .shopmenuheader {
+    text-align: center;
+  }
+
+  .shopmenuheader .menu > li{
+    text-shadow: none;
+    padding-left: 100px;
+  }
+
+}

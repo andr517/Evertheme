@@ -1,0 +1,71 @@
+#location {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em
+}
+
+.mymap {
+  height: 250px;
+  width: 100%;
+}
+
+.vdivider {
+  height: 100px;
+  width: 1000px;
+  background-color: powderblue;
+}
+
+.dragable:hover {
+  width: 100px;
+  height: 100px;
+  animation-name: colorchange;
+  animation-duration: 50s;
+}
+
+#owl-g .item {
+  margin: 3px;
+}
+
+#owl-g .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.centermy {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Animations */
+@keyframes colorchange {
+  0% {
+    background: rgb(160, 156, 156);
+  }
+
+  25% {
+    background: rgb(202, 200, 200);
+  }
+
+  50% {
+    background: rgb(120, 113, 113);
+  }
+
+  75% {
+    background: rgb(163, 157, 157);
+  }
+
+  100% {
+    background: rgb(160, 156, 156);
+  }
+}
+
+.zoom {
+  transition: transform .2s;
+  /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.09);
+}

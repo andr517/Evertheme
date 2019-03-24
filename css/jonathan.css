@@ -1,0 +1,299 @@
+/***************************************
+JONATHANS CSS *******************
+/***************************************
+
+/**************************************
+General styling ***********************
+***************************************/
+
+#video-bg {
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  background: transparent url(video-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+video {
+  display: block;
+}
+
+.video-container {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.overlay {
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  vertical-align: inherit;
+  margin-top: 10px;
+}
+
+.archives {
+  list-style-type: none;
+}
+
+.popular-title {
+  font-size: 22px;
+  font-family: Avenir Next, sans-serif;
+  font-variant: small-caps;
+  color: rgb(36, 36, 36);
+}
+
+#archives-title {
+  font-family: Avenir Next, sans-serif;
+  font-size: 47px;
+  font-variant: small-caps;
+  color: rgb(36, 36, 36);
+}
+
+/*******************************
+Newspage and archive styles
+*******************************/
+
+.news {
+  margin-top: 30px;
+}
+
+.news-fa-list {
+  list-style-type: none;
+  margin-bottom: 5px;
+  display: inline;
+}
+
+.news-fa-list li {
+  display: inline;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: grey;
+}
+
+.news-fa-list li a {
+  color: grey;
+}
+
+.news-title {
+  font-family: Avenir Next, Helvetica;
+  font-size: 24px;
+}
+
+.news a {
+  border-bottom: 2px solid rgba(192, 192, 192, 0);
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease;
+}
+
+.news a:hover {
+  border-bottom: 2px solid rgba(105, 153, 239, 1);
+}
+
+.news a {
+  color: #4a4a4a;
+}
+
+/*******************************
+Single page styles
+*******************************/
+
+.news-single {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.news-single ul {
+  display: inline;
+}
+
+.news-single a {
+  border-bottom: 2px solid rgba(192, 192, 192, 0);
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease;
+}
+
+.news-single a:hover {
+  border-bottom: 2px solid rgba(105, 153, 239, 1);
+}
+
+/*******************************
+Pagination styles
+*******************************/
+.screen-reader-text {
+  display: none;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.paginavi a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.current {
+  background-color: #4a4a4a;
+  color: white;
+  border: 1px solid #4a4a4a;
+  float: left;
+  padding: 8px 16px;
+}
+
+.paginavi a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.search-col {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+/*******************************
+Social media styles
+*******************************/
+
+ul.social {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+ul.social > li {
+  display: inline-block;
+  font-size: 35px;
+  margin: 0 0.5rem;
+}
+
+ul.social > li > a {
+  display: inline-block;
+  color: #fff;
+}
+
+ul.social > li > a:hover {
+  color: black;
+}
+
+div.soc-div ul {
+  list-style: none;
+}
+
+div.soc-div ul li {
+  display: inline-block;
+  font-size: 35px;
+  margin: 0 0.5rem;
+}
+
+div.soc-div ul li a {
+  color: gray;
+}
+
+div.soc-div ul li a span.hidden {
+  display: none;
+}
+
+div.soc-div ul li a:hover {
+  color: black;
+}
+
+/***************************************
+Mobile menu *******************
+***************************************/
+
+.Navbar {
+  background-color: #292929;
+  display: none;
+  padding: 16px;
+  font-family: Avenir Next,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.Navbar__Link {
+  padding-right: 8px;
+}
+
+.Navbar__Items {
+  display: flex;
+  margin-top: 20px;
+}
+
+.Navbar__Items li {
+  display: block;
+  padding: 30px 0 0 0;
+}
+
+.Navbar__Items a {
+  color: white;
+  border-bottom: 2px solid rgba(192, 192, 192, 0);
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease;
+}
+
+.Navbar__Items a:hover {
+  border-bottom: 2px solid rgba(105, 153, 239, 1);
+}
+
+.Navbar__Items--right {
+  margin-left:auto;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+.Navbar__Link-brand {
+  width: 140px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar {
+    display: flex;
+  }
+
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+
+.Navbar__Items {
+    display:none;
+  }
+
+.Navbar__Items--right {
+    margin-left:0;
+  }
+
+.Navbar__ToggleShow {
+    display: flex;
+  }
+
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+   }
+}

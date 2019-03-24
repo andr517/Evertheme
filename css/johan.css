@@ -1,0 +1,108 @@
+/****************************JOHANS CSS BÖRJAR*******************************************/
+
+/*
+***************************FARGER****************************
+black
+white
+rgb(105, 153, 239)
+rgb(36, 36, 36)
+--------------------------------------------------------------
+*/
+/*************Månad Section********************/
+
+.month-body{
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Avenir Next, sans-serif;
+}
+
+#card-title {
+  color: rgb(36, 36, 36);
+}
+
+/*********************************************/
+/*******************MultiCol & Twocol Sektioner**************************/
+
+.multiCol, .twoCol {
+  font-family: Avenir Next, sans-serif;
+  padding: 0;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.col, .subCol {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 250px;
+  flex-wrap: wrap;
+  min-width: 250px;
+}
+
+.col {
+  background-size: cover;
+}
+
+.backgroundImg{
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.textBoxTwoCol, .textBox{
+  position:absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -60px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: solid 3px white;
+  line-height: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+.multiCol h2 , .twoCol h2{
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.multiCol p , .twoCol p{
+  font-variant: small-caps;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/****************************************************/
+/***************************HOVER***************************************/
+
+.subCol:hover .backgroundImg, .col:hover .backgroundImg {
+	-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(70%) blur(3px);
+  transition: .5s ease-in-out;
+}
+
+.textBox:hover h2, .textBox:hover p{
+  color: black
+}
+
+.textBoxTwoCol:hover, .textBox:hover {
+  background-color: white;
+  transition: 0.5s;
+  opacity: 0.7;
+}
+
+.textBoxTwoCol:hover p, .textBoxTwoCol:hover h2{
+  color: black;
+}
+
+/*************************************************/
+/****************************JOHANS CSS SLUTAR*******************************************/
